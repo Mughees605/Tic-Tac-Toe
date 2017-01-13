@@ -1,0 +1,81 @@
+body{
+    background:#000;
+    color: #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+.clearfix{
+    clear: both;
+}
+#container{
+    width: 350px;
+    overflow: auto;
+    margin: 40px auto;
+    background: #666;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+#board{
+    list-style-type: none;
+}
+#board li{
+    float: left;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    text-align: center;
+    border-right: 5px;
+    color: #ccc;
+    background: #333;
+}
+#board li:hover,div button#reset,#turn_btn button{
+    cursor: pointer;
+
+}
+
+div button#reset{
+    width: 70%;
+    padding: 5px;
+    font-size: 30px;
+    border: 0;
+    background: #444;
+    color: #fff;
+}
+
+#turn_btn {
+    margin: 0px auto;
+    width: 70%;
+    margin-top: 10px;
+    background: #666;
+    color:white;
+    padding: 10px;
+}
+#turn_btn button{
+    width: 30%;
+    padding: 5px;
+    border: 0px;
+    font-size: 30px;
+    background: #444;
+    color: white;
+}
+#turn_btn span{
+   font-size: 20px;
+   position: relative;
+   top: -5px;
+}
+.turnX{
+
+    background: white;
+    color: black
+}
+.x{
+    color: green !important;
+}
+.o{
+    color: red !important;
+}
